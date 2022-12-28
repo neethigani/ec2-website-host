@@ -1,0 +1,19 @@
+"""#!/bin/bash
+hostname='sudo hostname'
+sudo yum update -y
+sudo yum install httpd -y
+sudo echo """"
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>MITHUN'S WEBSITE</title>
+</head>
+<body>
+   <h1> Welcome to ASG DEMO Guys ! </h1>
+   <h2> This is coming from shostname </h2>
+   <from action=""""some_action"""" method='POST'>
+   </form>
+</body>
+</html>"""">/var/www/html/index.html
+sudo service httpd restart
+sudo chkconfig --level 345 httpd on """
